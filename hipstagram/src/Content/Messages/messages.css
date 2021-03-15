@@ -1,0 +1,28 @@
+.message-wrapper {
+    background: cadetblue;
+    border: 2px solid #3578e5;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs-items {
+    padding: 10px;
+}
+
+.dialog a {
+    text-decoration: none;
+    color: blue;
+}
+
+.dialog a.active {
+    color: greenyellow;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+
+}

@@ -1,0 +1,17 @@
+.header {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr;
+    width: 1200px;
+    background: #3578e5;
+    height: 80px;
+    border: 2px solid #3578e5;
+    border-radius: 5px;
+}
+
+.header img {
+    /* width: 120px; */
+    margin-left: 26px;
+    height: 80px;
+    border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.navigation {
+    border: 2px solid #3578e5;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 3fr;
+    /* grid-auto-rows: repeat(5, 1fr) 3fr; */
+    font-size: 26px;
+    background: #fff;
+    height: 460px;
+}
+
+.navigation div a {
+    text-decoration: none;
+    color: #3578e5;
+}
+
+.navigation div a.active {
+    color: greenyellow;
+}

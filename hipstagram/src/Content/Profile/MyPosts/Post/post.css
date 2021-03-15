@@ -1,0 +1,9 @@
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.likes {
+    color: rgb(119, 238, 73);
+}

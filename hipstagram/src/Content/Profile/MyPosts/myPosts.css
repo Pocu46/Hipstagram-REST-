@@ -1,0 +1,18 @@
+.myposts-block {
+    padding: 10px;
+}
+
+.myposts-content__block {
+    display: grid;
+    margin: 10px;
+}
+
+.myposts-content__block button {
+    margin-top: 10px;
+    width: 120px;
+}
+
+.myposts-content__block textarea {
+    height: 100px;
+    width: 780px;
+}
