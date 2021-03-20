@@ -8,7 +8,7 @@ function Profile(props) {
         <div className='content-wrapper'>
 
             <div className='content'>
-                <ProfileInfo />
+                <ProfileInfo profile={props.profile} />
                 <MyPostsContainer />
             </div>
         </div>

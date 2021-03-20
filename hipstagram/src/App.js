@@ -5,10 +5,10 @@ import Navigation from "./Content/Navigation/navigation";
 import News from "./Content/News/news";
 import { Redirect, Route } from "react-router-dom";
 import Music from "./Content/Music/music";
-import Profile from "./Content/Profile/profile";
 import Settings from "./Content/Settings/settings";
 import MessagesContainer from "./Content/Messages/messagesContainer";
 import UsersContainer from "./Content/Users/UsersContainer";
+import ProfileContainer from "./Content/Profile/ProfileInfo/profileContainer";
 
 function App(props) {
     return (
@@ -22,7 +22,7 @@ function App(props) {
                     <Redirect exact from="/" to="/profile" />
                     <Route
                         path="/profile"
-                        render={() => <Profile />}
+                        render={() => <ProfileContainer />} 
                     />
                     <Route
                         path="/messages"
