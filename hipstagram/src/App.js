@@ -21,7 +21,7 @@ function App(props) {
                 <div className="app-wrapper-content">
                     <Redirect exact from="/" to="/profile" />
                     <Route
-                        path="/profile"
+                        path="/profile/:userId?"
                         render={() => <ProfileContainer />} 
                     />
                     <Route
