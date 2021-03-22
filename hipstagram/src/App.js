@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header/header";
 import Navigation from "./Content/Navigation/navigation";
 import News from "./Content/News/news";
 import { Redirect, Route } from "react-router-dom";
@@ -9,11 +8,12 @@ import Settings from "./Content/Settings/settings";
 import MessagesContainer from "./Content/Messages/messagesContainer";
 import UsersContainer from "./Content/Users/UsersContainer";
 import ProfileContainer from "./Content/Profile/ProfileInfo/profileContainer";
+import HeaderContainer from "./Header/HeaderContainer";
 
 function App(props) {
     return (
         <div className="app-wrapper">
-            <Header />
+            <HeaderContainer />
 
             <div className="content-block">
                 <Navigation />

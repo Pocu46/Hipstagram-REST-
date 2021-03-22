@@ -1,12 +1,13 @@
 .header {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr;
     width: 1200px;
     background: #3578e5;
     height: 80px;
     border: 2px solid #3578e5;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 .header img {
@@ -14,4 +15,12 @@
     margin-left: 26px;
     height: 80px;
     border-radius: 5px;
+}
+
+.loginBlock a {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
 }
