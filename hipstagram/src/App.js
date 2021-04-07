@@ -9,6 +9,7 @@ import MessagesContainer from "./Content/Messages/messagesContainer";
 import UsersContainer from "./Content/Users/UsersContainer";
 import ProfileContainer from "./Content/Profile/ProfileInfo/profileContainer";
 import HeaderContainer from "./Header/HeaderContainer";
+import Login from "./Content/Login/login";
 
 function App(props) {
     return (
@@ -31,6 +32,10 @@ function App(props) {
                     <Route
                         path="/users"
                         render={() => <UsersContainer /> }
+                    />
+                    <Route
+                        path="/login"
+                        render={() => <Login /> }
                     />
                     <Route path="/news" component={News} />
                     <Route path="/music" component={Music} />
